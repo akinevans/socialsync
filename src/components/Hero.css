@@ -1,0 +1,17 @@
+.hero-outer-wrapper,
+.hero-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-outer-wrapper {
+  width: var(--full-width);
+  height: 600px;
+  background-color: var(--secondary-bg-color);
+}
+.hero-outer-wrapper {
+  width: var(--desktop-width);
+  height: 100%;
+}

@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.title-wrapper h1,
+.link,
+.signin,
+.get-started-btn {
+  color: var(--font-color);
+  font-family: var(--body-font);
+}
+
 .nav-outer-wrapper {
   width: var(--full-width);
   height: 50px;
@@ -38,8 +46,6 @@
 .link,
 .signin {
   text-decoration: none;
-  font-family: var(--body-font);
-  color: var(--font-color);
   font-weight: 500;
   font-size: 13px;
 }
@@ -61,7 +67,6 @@
   border-radius: 5px;
   height: 38px;
   padding: 0 15px;
-  font-family: var(--body-font);
   font-weight: 500;
   font-size: 12px;
 }
