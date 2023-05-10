@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
   --heading-font: "Albert Sans", sans-serif;
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Montserrat", sans-serif;
 
   /* Light Mode Colors */
   --main-bg-color: #fff;
@@ -12,6 +12,7 @@
   --font-color: #12151d;
 
   /*  Screen sizes*/
+  --full-width: 100vw;
   --desktop-width: 1440px;
 }
 
