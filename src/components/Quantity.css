@@ -1,0 +1,28 @@
+.quantity-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 230px;
+  /* border: 2px solid black; */
+}
+
+.quantity-wrapper h1,
+.quantity-wrapper p {
+  font-family: var(--body-font);
+  text-align: center;
+  color: var(--font-color);
+}
+
+.quantity-wrapper h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.quantity-wrapper p {
+  font-size: 15px;
+  color: #12151db0;
+  margin: 10px;
+}

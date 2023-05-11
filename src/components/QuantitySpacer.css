@@ -1,0 +1,18 @@
+.quantity-spacer-outer-wrapper,
+.quantity-spacer-inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quantity-spacer-outer-wrapper {
+  width: var(--full-width);
+  background-color: var(--secondary-bg-color);
+  height: 250px;
+}
+
+.quantity-spacer-inner-wrapper {
+  width: calc(var(--desktop-width) - 20%);
+  height: 100%;
+}

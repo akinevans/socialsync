@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Hero_Spacer from "./components/Hero_Spacer";
 import Product_Services from "./components/Product_Services";
 import Pros from "./components/Pros";
+import QuantitySpacer from "./components/QuantitySpacer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       />
       <Product_Services />
       <Pros />
+      <QuantitySpacer />
     </div>
   );
 }
