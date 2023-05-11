@@ -51,6 +51,11 @@
   font-size: 13px;
 }
 
+.link:hover,
+.signin:hover {
+  color: #12151dc1;
+}
+
 .signin {
   margin-right: 10px;
 }
