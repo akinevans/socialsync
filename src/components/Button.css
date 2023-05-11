@@ -1,15 +1,29 @@
 .btn {
-  background-color: var(--button-color);
-  color: var(--main-bg-color);
   border: none;
   border-radius: 5px;
-  height: 38px;
-  padding: 0 15px;
+  width: 150px;
+  height: 42px;
+  padding: 0 10px;
   font-weight: 500;
   font-size: 12px;
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-orange {
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
+  font-weight: 500;
+}
+
+.btn-orange:hover {
   background-color: #ed6040d1;
+}
+
+.btn-white {
+  background-color: var(--main-bg-color);
+  color: var(--font-color);
+  font-weight: 700;
+}
+.btn-white:hover {
+  background-color: #d7d7d7;
 }
