@@ -7,7 +7,7 @@ export default function Navigation() {
     <div className='nav-outer-wrapper'>
       <div className='nav-inner-wrapper'>
         <div className='title-wrapper'>
-          <h1>Socialsync.</h1>
+          <h1>SocialSync.</h1>
         </div>
         <div className='link-wrapper'>
           <a href='/' className='link'>
