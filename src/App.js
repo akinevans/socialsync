@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Hero_Spacer from "./components/Hero_Spacer";
 import Product_Services from "./components/Product_Services";
+import Pros from "./components/Pros";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         text='Set clear expectations with customers based on your teams bandwidth, and collect upfront information for follow-up later.'
       />
       <Product_Services />
+      <Pros />
     </div>
   );
 }
