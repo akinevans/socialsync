@@ -9,7 +9,7 @@
 
 .hero-outer-wrapper {
   width: var(--full-width);
-  height: 500px;
+  height: 530px;
   background-color: var(--secondary-bg-color);
   /* border: 2px solid red; */
 }
@@ -17,6 +17,7 @@
 .hero-inner-wrapper {
   width: var(--desktop-width);
   height: 100%;
+  margin-top: 25px;
   /* border: 2px solid blue; */
 }
 

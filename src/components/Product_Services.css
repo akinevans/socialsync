@@ -1,0 +1,21 @@
+.product-services-outer-wrapper,
+.product-services-inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product-services-outer-wrapper {
+  width: var(--full-width);
+  height: 320px;
+  padding-bottom: 100px;
+  /* border: 2px solid red; */
+}
+
+.product-services-inner-wrapper {
+  width: calc(var(--desktop-width) - 22%);
+  height: 100%;
+  /* border: 2px solid blue; */
+  justify-content: space-between;
+}

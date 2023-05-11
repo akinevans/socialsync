@@ -1,0 +1,42 @@
+.pscard-wrapper {
+  width: 280px;
+  height: 260px;
+  border: 2px solid rgba(0, 0, 0, 0.075);
+  border-radius: 15px;
+  padding: 20px 25px;
+  background-color: var(--main-bg-color);
+}
+
+.pscard-wrapper h1,
+.pscard-wrapper p,
+.pscard-wrapper h3 {
+  font-family: var(--body-font);
+  color: var(--font-color);
+}
+
+.pscard-wrapper img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0 20px 0;
+}
+
+.pscard-wrapper h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.pscard-wrapper p {
+  margin: 20px 0 50px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.pscard-wrapper h3 {
+  margin: 30px 0 0 0;
+  color: var(--button-color);
+  font-size: 16px;
+}
+
+.arrow {
+  font-size: 20px;
+}
