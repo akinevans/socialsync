@@ -51,8 +51,12 @@
   font-size: 13px;
 }
 
+.signin {
+  margin-right: 10px;
+}
+
 .nav-end-wrapper {
-  width: 200px;
+  width: 220px;
   margin-left: 200px;
   /* border: 2px solid blue; */
   display: flex;
