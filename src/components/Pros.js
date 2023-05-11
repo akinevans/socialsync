@@ -19,7 +19,7 @@ export default function Pros() {
               whether on your website or in your app.
             </p>
             <p>
-              Socialsync connects your tools and workflows so you can
+              SocialSync connects your tools and workflows so you can
               communicate <br />
               personally at scale{" "}
             </p>

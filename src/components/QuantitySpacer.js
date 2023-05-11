@@ -8,11 +8,11 @@ export default function QuantitySpacer() {
       <div className='quantity-spacer-inner-wrapper'>
         <Quantity
           number='1.6x'
-          text='Tickets when using the Socialsync messenger'
+          text='Tickets when using the SocialSync messenger'
         />
         <Quantity
           number='90.7%'
-          text='Socialsync customers see a median CSAT of 90.7%'
+          text='SocialSync customers see a median CSAT of 90.7%'
         />
         <Quantity
           number='37%'
