@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import Button from "./Button";
 
 export default function Navigation() {
   return (
@@ -29,7 +30,7 @@ export default function Navigation() {
           <a href='/' className='signin'>
             Sign in
           </a>
-          <button className='get-started-btn'>Get Started Free</button>
+          <Button title='Get Started Free' />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
 .nav-inner-wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
@@ -58,15 +59,4 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--secondary-bg-color);
-}
-
-.get-started-btn {
-  background-color: var(--button-color);
-  color: var(--main-bg-color);
-  border: none;
-  border-radius: 5px;
-  height: 38px;
-  padding: 0 15px;
-  font-weight: 500;
-  font-size: 12px;
 }
