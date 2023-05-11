@@ -9,7 +9,8 @@
 .hero-spacer-outer-wrapper {
   width: var(--full-width);
   /* border: 2px solid red; */
-  height: 200px;
+  height: 215px;
+  background-color: var(--main-bg-color);
 }
 
 .hero-spacer-inner-wrapper {
@@ -27,6 +28,7 @@
 .hero-spacer-title,
 .hero-spacer-text {
   font-family: var(--body-font);
+  color: var(--font-color);
   margin: 0;
 }
 
@@ -42,4 +44,6 @@
 
 .hero-spacer-text {
   margin-top: 10px;
+  color: #12151dca;
+  font-size: 15.5px;
 }
