@@ -3,6 +3,8 @@ import React from "react";
 import "./Hero.css";
 import Button_Orange from "./Button_Orange";
 import Button_White from "./Button_White";
+import five_star from "../icons/five-star.svg";
+import one_star from "../icons/one_star.svg";
 
 export default function Hero() {
   return (
@@ -24,10 +26,12 @@ export default function Hero() {
           <Button_White title='Watch A Demo' />
         </div>
         <div className='hero-review-wrapper'>
+          <img src={one_star} alt='green star' className='one-star' />
           <p>
             <span className='review-title'>Trustpilot </span>
             {/* Import star Icons */}
-            <span className='yellow-stars'> ☆☆☆☆☆</span>
+            <img className='five-star' src={five_star} alt='five star rating' />
+
             <span className='end-review'>4900+ 5 Stars</span>
           </p>
         </div>

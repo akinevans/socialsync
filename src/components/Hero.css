@@ -1,6 +1,7 @@
 .hero-outer-wrapper,
 .hero-inner-wrapper,
-.hero-button-wrapper {
+.hero-button-wrapper,
+.hero-review-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +13,7 @@
   height: 530px;
   background-color: var(--secondary-bg-color);
   /* border: 2px solid red; */
+  padding-top: 25px;
 }
 
 .hero-inner-wrapper {
@@ -57,11 +59,18 @@
 }
 
 .hero-review-wrapper {
-  width: 320px;
+  width: fit-content;
   height: 40px;
+  margin-top: 15px;
+  flex-direction: row;
   /* border: 2px solid black; */
   text-align: center;
   /* font: var(--body-font); */
+}
+
+.one-star {
+  width: 25px;
+  height: 25px;
 }
 
 .review-title {
@@ -70,8 +79,9 @@
   padding-right: 10px;
 }
 
-.yellow-stars {
-  /* background-color: gold; */
+.five-star {
+  width: 85px;
+  /* border: 1px solid black; */
 }
 
 .end-review {
