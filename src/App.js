@@ -7,6 +7,7 @@ import Product_Services from "./components/Product_Services";
 import Pros from "./components/Pros";
 import QuantitySpacer from "./components/QuantitySpacer";
 import Demo from "./components/Demo";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Pros />
       <QuantitySpacer />
       <Demo />
+      <Contact />
     </div>
   );
 }
