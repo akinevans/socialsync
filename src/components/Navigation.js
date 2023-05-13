@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import "./Navigation.css";
+import { Link } from "react-scroll";
 import Button_Orange from "./Button_Orange";
 
 export default function Navigation() {
@@ -11,19 +12,48 @@ export default function Navigation() {
           <h1>SocialSync.</h1>
         </div>
         <div className='link-wrapper'>
-          <a href='/' className='link'>
+          {/* Link tags from react-scroll package are essentially 'a' anchor tags */}
+          <Link
+            to='hero_component'
+            spy={true}
+            smooth={true}
+            offset={-130}
+            duration={800}
+            className='link'
+          >
             Home
-          </a>
-          <a href='/' className='link'>
+          </Link>
+          <Link
+            to='product_services'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={800}
+            className='link'
+          >
             About
-          </a>
-          <a href='/' className='link'>
+          </Link>
+          <Link
+            to='demo'
+            spy={true}
+            smooth={true}
+            offset={-40}
+            duration={800}
+            className='link'
+          >
             Demo
-          </a>
+          </Link>
 
-          <a href='/' className='link'>
+          <Link
+            to='contact'
+            spy={true}
+            smooth={true}
+            offset={-40}
+            duration={800}
+            className='link'
+          >
             Contact
-          </a>
+          </Link>
         </div>
         <div className='nav-end-wrapper'>
           <a href='/' className='signin'>

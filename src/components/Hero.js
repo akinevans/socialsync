@@ -8,7 +8,7 @@ import one_star from "../icons/one_star.svg";
 
 export default function Hero() {
   return (
-    <div className='hero-outer-wrapper'>
+    <div className='hero-outer-wrapper' id='hero_component'>
       <div className='hero-inner-wrapper'>
         <div className='hero-title'>
           <h1>

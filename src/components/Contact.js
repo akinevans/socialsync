@@ -5,7 +5,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className='contact-outer-wrapper'>
+    <div className='contact-outer-wrapper' id='contact'>
       <div className='contact-inner-wrapper'>
         <div className='contact-text-wrapper'>
           <h1>Want to talk to a marketing expert?</h1>

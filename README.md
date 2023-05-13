@@ -6,22 +6,24 @@ UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website
 
 ## Logic:
 
-- [ ] Implement functionality for Navigation scroll
+- [x] Implement functionality for Navigation scroll
 - [ ] Implement component animations on scroll
 - [ ] Give Button components dynamic class names
 
 ## Styling:
 
 - [x] Fix desktop components resizing issue (calc function)
-- [ ] Add hover effects for buttons
+- [x] Add hover effects for buttons
 - [ ] Add active effects for buttons
 - [ ] Add hover effects for links
-- [ ] Add active effects for links
+- [x] Add active effects for links
+- [ ] Implement responsive tablet view
+- [ ] Implement responsive mobile view
 
 ## Other:
 
 - [x] Build Footer component
-- [ ] Rename Navigation Links
+- [x] Rename Navigation Links
 
 # Getting Started with Create React App
 

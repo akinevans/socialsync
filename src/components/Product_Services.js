@@ -8,7 +8,7 @@ import word_bubble from "../icons/word-bubble.png";
 
 export default function Product_Services() {
   return (
-    <div className='product-services-outer-wrapper'>
+    <div className='product-services-outer-wrapper' id='product_services'>
       <div className='product-services-inner-wrapper'>
         <PS_Card
           img={word_bubble}

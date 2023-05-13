@@ -5,7 +5,7 @@ import play_btn from "../images/play-btn.png";
 
 export default function Demo() {
   return (
-    <div className='demo-outer-wrapper'>
+    <div className='demo-outer-wrapper' id='demo'>
       <div className='demo-inner-wrapper'>
         <div className='demo-img-wrapper'>
           <div className='demo-img-inner-wrapper'>
