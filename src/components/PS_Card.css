@@ -45,3 +45,34 @@
 .arrow {
   font-size: 20px;
 }
+
+/** Tablet View */
+/** Tablet View */
+/** Tablet View */
+
+@media (max-width: 1000px) {
+  .pscard-wrapper {
+    width: 220px;
+    height: 220px;
+    padding: 10px 15px;
+  }
+
+  .pscard-wrapper img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 10px 0;
+  }
+
+  .pscard-wrapper h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .pscard-wrapper p {
+    margin: 20px 0 30px 0;
+  }
+
+  .pscard-wrapper a {
+    margin: 0;
+  }
+} /*End Tablet View*/

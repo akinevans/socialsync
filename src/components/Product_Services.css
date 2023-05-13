@@ -19,3 +19,20 @@
   /* border: 2px solid blue; */
   justify-content: space-between;
 }
+
+/** Tablet View */
+/** Tablet View */
+/** Tablet View */
+
+@media (max-width: 1000px) {
+  .product-services-inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 100%;
+    /* border: 2px solid blue; */
+    justify-content: space-around;
+  }
+} /*End Tablet View*/
