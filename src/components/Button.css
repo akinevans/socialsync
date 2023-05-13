@@ -13,17 +13,21 @@
   background-color: var(--button-color);
   color: var(--main-bg-color);
   font-weight: 500;
+  transition: background-color 0.2s ease-out;
 }
 
 .btn-orange:hover {
-  background-color: #ed6040d1;
+  background-color: var(--button-hover);
+  transition: background-color 0.2s ease-out;
 }
 
 .btn-white {
   background-color: var(--main-bg-color);
   color: var(--font-color);
   font-weight: 700;
+  transition: background-color 0.2s ease-out;
 }
 .btn-white:hover {
-  background-color: #d7d7d7;
+  background-color: #eaeaea;
+  transition: background-color 0.2s ease-out;
 }

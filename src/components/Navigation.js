@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import "./Navigation.css";
 import Button_Orange from "./Button_Orange";
@@ -11,17 +12,15 @@ export default function Navigation() {
         </div>
         <div className='link-wrapper'>
           <a href='/' className='link'>
-            Demos
+            Home
           </a>
           <a href='/' className='link'>
             About
           </a>
           <a href='/' className='link'>
-            Blog
+            Demo
           </a>
-          <a href='/' className='link'>
-            Pages
-          </a>
+
           <a href='/' className='link'>
             Contact
           </a>

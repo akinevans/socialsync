@@ -21,6 +21,7 @@ UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website
 ## Other:
 
 - [x] Build Footer component
+- [ ] Rename Navigation Links
 
 # Getting Started with Create React App
 

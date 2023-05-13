@@ -38,6 +38,10 @@
   font-weight: 600;
 }
 
+.pscard-wrapper a:hover {
+  color: var(--button-hover);
+}
+
 .arrow {
   font-size: 20px;
 }

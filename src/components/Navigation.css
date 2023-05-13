@@ -51,12 +51,15 @@
 .signin {
   text-decoration: none;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
 }
 
 .link:hover,
 .signin:hover {
   color: #12151dc1;
+  text-decoration: underline;
 }
 
 .signin {
