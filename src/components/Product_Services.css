@@ -9,7 +9,7 @@
 .product-services-outer-wrapper {
   width: var(--full-width);
   height: 320px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   /* border: 2px solid red; */
 }
 

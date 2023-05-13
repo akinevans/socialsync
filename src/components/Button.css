@@ -21,13 +21,22 @@
   transition: background-color 0.2s ease-out;
 }
 
+.btn-orange:active {
+  background-color: var(--button-active);
+}
+
 .btn-white {
   background-color: var(--main-bg-color);
   color: var(--font-color);
   font-weight: 700;
   transition: background-color 0.2s ease-out;
 }
+
 .btn-white:hover {
   background-color: #eaeaea;
   transition: background-color 0.2s ease-out;
+}
+
+.btn-white:active {
+  background-color: var(--button-active);
 }

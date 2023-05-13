@@ -55,12 +55,25 @@
   letter-spacing: 0.5px;
   text-decoration: none;
   cursor: pointer;
+  border: none;
 }
 
 .link:hover,
 .signin:hover {
   color: #12151dc1;
   text-decoration: underline;
+}
+
+.link:active,
+.signin:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* class active added from react-scroll library */
+.active {
+  border: none;
+  outline: none;
 }
 
 .signin {
