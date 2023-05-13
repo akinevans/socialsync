@@ -1,0 +1,26 @@
+.footer-links-outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 290px;
+  width: fit-content;
+  /* border: 2px solid green; */
+}
+
+.footer-links-outer-wrapper h3,
+.footer-links-outer-wrapper a {
+  font-family: var(--body-font);
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.footer-links-outer-wrapper h3 {
+  font-size: 14px;
+  margin: 20px 0 18px 0;
+}
+
+.footer-links-outer-wrapper a {
+  font-size: 14px;
+  margin: 5px 0;
+}

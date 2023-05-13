@@ -9,7 +9,7 @@
 .footer-sub-outer-wrapper {
   width: 300px;
   height: 80%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .footer-sub-outer-wrapper h3,
