@@ -13,6 +13,6 @@
 }
 
 .quantity-spacer-inner-wrapper {
-  width: calc(var(--desktop-width) - 20%);
+  width: 950px;
   height: 100%;
 }

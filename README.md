@@ -8,7 +8,7 @@ UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website
 
 - [ ] Implement functionality for Navigation scroll
 - [ ] Implement component animations on scroll
-- [ ]
+- [ ] Give Button components dynamic class names
 
 ## Styling:
 

@@ -8,6 +8,7 @@ import Pros from "./components/Pros";
 import QuantitySpacer from "./components/QuantitySpacer";
 import Demo from "./components/Demo";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <QuantitySpacer />
       <Demo />
       <Contact />
+      <Footer />
     </div>
   );
 }

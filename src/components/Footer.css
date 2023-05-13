@@ -1,0 +1,21 @@
+.footer-outer-wrapper,
+.footer-inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-outer-wrapper {
+  width: var(--full-width);
+  height: 450px;
+  border: 2px solid red;
+  margin: 0 0 50px 0;
+}
+
+.footer-inner-wrapper {
+  width: 865px;
+  height: 80%;
+  justify-content: space-between;
+  border: 2px solid blue;
+}

@@ -46,6 +46,7 @@
   background-color: var(--button-color);
   border-radius: 34px;
   position: relative;
+  z-index: 1;
 }
 
 .meeting {
