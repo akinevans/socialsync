@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
         <div className='hero-body-text'>
           <p>
-            Transform the way you work with one place for everyone <br /> and
+            Transform the way you work with one place for everyone and
             everything you need to get stuff done.
           </p>
         </div>

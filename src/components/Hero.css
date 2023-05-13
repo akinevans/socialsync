@@ -46,6 +46,7 @@
 
 .hero-body-text {
   margin-bottom: 25px;
+  width: 460px;
 }
 
 .hero-body-text p {
@@ -121,7 +122,8 @@
   }
 
   .hero-body-text {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    width: 345px;
   }
 
   .hero-body-text p {
