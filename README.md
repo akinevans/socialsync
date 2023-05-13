@@ -1,5 +1,27 @@
 <img src="./src/images/SocialSync.png" alt="Alt text" title="Optional title">
 
+UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website-Design) on Dribbble.
+
+# TODO:
+
+## Logic:
+
+- [ ] Implement functionality for Navigation scroll
+- [ ] Implement component animations on scroll
+- [ ]
+
+## Styling:
+
+- [ ] Fix desktop components resizing issue (calc function)
+- [ ] Add hover effects for buttons
+- [ ] Add active effects for buttons
+- [ ] Add hover effects for links
+- [ ] Add active effects for links
+
+## Other:
+
+- [ ] Build Footer component
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
