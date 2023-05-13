@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: flex-start;
   height: 290px;
-  width: fit-content;
+  width: 145px;
+  margin: 0 20px;
   /* border: 2px solid green; */
 }
 
@@ -23,4 +24,9 @@
 .footer-links-outer-wrapper a {
   font-size: 14px;
   margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer-links-outer-wrapper a:hover {
+  text-decoration: underline;
 }

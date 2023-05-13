@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Button_Orange from "./Button_Orange";
 import "./Contact.css";

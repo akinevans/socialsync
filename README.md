@@ -12,7 +12,7 @@ UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website
 
 ## Styling:
 
-- [ ] Fix desktop components resizing issue (calc function)
+- [x] Fix desktop components resizing issue (calc function)
 - [ ] Add hover effects for buttons
 - [ ] Add active effects for buttons
 - [ ] Add hover effects for links
@@ -20,7 +20,7 @@ UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website
 
 ## Other:
 
-- [ ] Build Footer component
+- [x] Build Footer component
 
 # Getting Started with Create React App
 

@@ -18,7 +18,7 @@
 .pros-inner-wrapper {
   flex-direction: column;
 
-  width: calc(var(--desktop-width) - 15%);
+  width: 1100px;
   height: 100%;
   /* border: 2px solid blue; */
 }

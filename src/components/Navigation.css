@@ -44,7 +44,7 @@
   width: 350px;
   display: flex;
   justify-content: space-between;
-  margin-right: 200px;
+  margin-right: 125px;
 }
 
 .link,
@@ -66,6 +66,7 @@
 .nav-end-wrapper {
   width: 220px;
   margin-left: 200px;
+  margin-right: 75px;
   /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;

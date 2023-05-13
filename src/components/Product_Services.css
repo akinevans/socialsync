@@ -14,7 +14,7 @@
 }
 
 .product-services-inner-wrapper {
-  width: calc(var(--desktop-width) - 22%);
+  width: 1100px;
   height: 100%;
   /* border: 2px solid blue; */
   justify-content: space-between;

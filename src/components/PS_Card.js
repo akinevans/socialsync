@@ -7,9 +7,10 @@ export default function PS_Card(props) {
       <img src={props.img} alt='' />
       <h1>{props.title}</h1>
       <p>{props.info}</p>
-      <h3>
+
+      <a href='/'>
         Discover More <span className='arrow'>→</span>
-      </h3>
+      </a>
     </div>
   );
 }

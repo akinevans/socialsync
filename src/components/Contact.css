@@ -15,9 +15,8 @@
 }
 
 .contact-inner-wrapper {
-  /* width: calc(var(--desktop-width) - 36%); */
   width: 865px;
-  height: 85%;
+  height: 324px;
   background-color: var(--main-bg-color);
   /* border: 4px solid blue; */
   background-color: var(--quaternary-bg-color);
@@ -27,7 +26,7 @@
 .contact-text-wrapper {
   flex-direction: column;
   /* border: 2px solid white; */
-  width: 50%;
+  width: 430px;
 }
 
 .contact-text-wrapper h1 {

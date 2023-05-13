@@ -22,8 +22,7 @@
 
 .demo-img-wrapper,
 .demo-text-wrapper {
-  width: 35%;
-  height: 90%;
+  width: 500px;
   /* border: 2px solid blue; */
   padding: 0 20px;
 }
@@ -90,20 +89,25 @@
   font-family: var(--body-font);
 }
 
-.demo-text-wrapper h1 {
+.demo-text-wrapper h1,
+.demo-text-wrapper h4,
+.demo-text-wrapper p {
+  width: 475px;
   font-weight: 600;
+}
+
+.demo-text-wrapper h1 {
   font-size: 35px;
   margin: 0 0 40px 0;
 }
 
 .demo-text-wrapper h4 {
-  font-weight: 600;
   font-size: 18px;
   margin-bottom: 0;
 }
 
 .demo-text-wrapper p {
-  /* font-weight: 600; */
+  font-weight: 400;
   font-size: 16px;
   margin-top: 20px;
 }

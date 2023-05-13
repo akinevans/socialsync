@@ -61,4 +61,9 @@
   font-weight: 500;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-btn:hover {
+  background-color: #ed6040c2;
 }
