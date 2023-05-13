@@ -7,6 +7,7 @@
   font-weight: 500;
   font-size: 12px;
   cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .btn-orange {
@@ -40,3 +41,18 @@
 .btn-white:active {
   background-color: var(--button-active);
 }
+
+/** Tablet View */
+/** Tablet View */
+/** Tablet View */
+
+@media (max-width: 1000px) {
+  .btn {
+    width: 135px;
+    height: 38px;
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+  }
+} /* End Tablet View*/

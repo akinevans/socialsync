@@ -128,6 +128,13 @@
     font-size: 16px;
   }
 
+  .hero-button-wrapper {
+    justify-content: space-evenly;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
   .hero-review-wrapper {
     height: 40px;
     margin-top: 0px;
