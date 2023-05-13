@@ -118,6 +118,9 @@
     /* border: 2px solid red; */
     position: relative;
     box-shadow: none;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+    z-index: 999;
+    /* transition: all 0.2s ease; */
   }
 
   .nav-inner-wrapper {
