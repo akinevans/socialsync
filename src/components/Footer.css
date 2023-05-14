@@ -26,6 +26,9 @@
 /** Tablet View */
 
 @media (max-width: 1000px) {
+  .footer-outer-wrapper {
+    height: 350px;
+  }
   .footer-inner-wrapper {
     justify-content: space-evenly;
   }

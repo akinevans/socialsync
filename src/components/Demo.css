@@ -73,6 +73,7 @@
   font-weight: 600;
   font-size: 12.5px;
   transition: background-color 0.2s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .demo-btn:hover {
