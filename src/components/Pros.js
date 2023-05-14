@@ -14,14 +14,12 @@ export default function Pros() {
           <div className='section-one-text-wrapper'>
             <h1>Everyone wins with a conversational approach</h1>
             <p>
-              Engage customers at the exact moment they're ready to buy,
-              <br />
-              whether on your website or in your app.
+              Engage customers at the exact moment they're ready to buy, whether
+              on your website or in your app.
             </p>
             <p>
               SocialSync connects your tools and workflows so you can
-              communicate <br />
-              personally at scale{" "}
+              communicate personally at scale{" "}
             </p>
           </div>
         </div>
@@ -33,9 +31,7 @@ export default function Pros() {
             </h1>
             <p>
               Phone and email only? Give your customers more. Intercom has
-              <br />
               convenient whenever, whenever messaging that works in app, online,
-              <br />
               and on mobile for super quick and easy support.
             </p>
             <p>
