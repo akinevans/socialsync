@@ -16,8 +16,7 @@
 
 .contact-inner-wrapper {
   width: 865px;
-  height: 324px;
-  background-color: var(--main-bg-color);
+  height: 100%;
   /* border: 4px solid blue; */
   background-color: var(--quaternary-bg-color);
   border-radius: 30px;
@@ -36,3 +35,25 @@
   margin-bottom: 40px;
   font-size: 38px;
 }
+
+/** Tablet View */
+/** Tablet View */
+/** Tablet View */
+
+@media (max-width: 1000px) {
+  .contact-outer-wrapper {
+    height: 280px;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+  }
+
+  .contact-inner-wrapper {
+    width: 765px;
+    /* border: 4px solid blue; */
+    background-color: var(--quaternary-bg-color);
+  }
+
+  .contact-text-wrapper h1 {
+    font-size: 34px;
+  }
+} /*End Tablet View*/
