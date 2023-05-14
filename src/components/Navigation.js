@@ -48,7 +48,7 @@ export default function Navigation() {
             to='contact'
             spy={true}
             smooth={true}
-            offset={-40}
+            offset={-80}
             duration={800}
             className='link'
           >

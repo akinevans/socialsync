@@ -66,19 +66,20 @@
 .link:hover,
 .signin:hover {
   color: #12151dc1;
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 .link:active,
 .signin:active {
   color: #000;
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 /* class active added from react-scroll library */
 .active {
   border: none;
   outline: none;
+  border-bottom: 1px solid #12151d7f;
 }
 
 .signin {
