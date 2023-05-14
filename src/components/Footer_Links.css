@@ -30,3 +30,10 @@
 .footer-links-outer-wrapper a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1000px) {
+  .footer-links-outer-wrapper {
+    margin: 0 5px;
+    /* border: 2px solid green; */
+  }
+} /* End Tablet View*/

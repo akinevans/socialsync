@@ -20,3 +20,13 @@
   /* border: 2px solid blue; */
   border-bottom: 2px solid #e8e8e8;
 }
+
+/** Tablet View */
+/** Tablet View */
+/** Tablet View */
+
+@media (max-width: 1000px) {
+  .footer-inner-wrapper {
+    justify-content: space-evenly;
+  }
+} /*End tablet view*/
