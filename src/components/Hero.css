@@ -101,7 +101,8 @@
 
 @media (max-width: 1000px) {
   .hero-outer-wrapper {
-    height: 350px;
+    height: 310px;
+    /* border: 2px solid red; */
   }
 
   .hero-inner-wrapper {
