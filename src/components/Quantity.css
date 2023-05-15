@@ -26,3 +26,24 @@
   color: #12151db0;
   line-height: 25px;
 }
+
+/** Tablet View */
+/** Tablet View */
+/** Tablet View */
+
+@media (max-width: 1000px) {
+  .quantity-wrapper {
+    width: 220px;
+    height: 200px;
+    /* border: 2px solid black; */
+  }
+
+  .quantity-wrapper h1 {
+    font-size: 52px;
+  }
+
+  .quantity-wrapper p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+} /*End Tablet View*/
