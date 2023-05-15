@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className='App'>
-      <Navigation />
+      <Navigation className='red' />
       <Hero />
       <Hero_Spacer
         title='Live chat is only the beginning'
