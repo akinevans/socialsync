@@ -161,3 +161,35 @@
     font-size: 13px;
   }
 } /*End Tablet View*/
+
+/** Mobile View 475px; */
+/** Mobile View 475px; */
+/** Mobile View 475px; */
+
+@media (max-width: 475px) {
+  .hero-title h1 {
+    font-size: 32px;
+  }
+
+  .one-star {
+    width: 18px;
+    height: 18px;
+  }
+
+  .review-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 10px;
+  }
+
+  .five-star {
+    width: 75px;
+    /* border: 1px solid black; */
+  }
+
+  .end-review {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    padding-left: 8px;
+  }
+} /*End Mobile View*/

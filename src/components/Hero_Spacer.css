@@ -77,3 +77,13 @@
     font-size: 16px;
   }
 } /*End Tablet View*/
+
+/** Mobile View 475px; */
+/** Mobile View 475px; */
+/** Mobile View 475px; */
+
+@media (max-width: 475px) {
+  .hero-spacer-title {
+    font-size: 32px;
+  }
+} /*End Mobile View*/
