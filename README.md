@@ -18,7 +18,7 @@ UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website
 - [x] Add hover effects for links
 - [x] Add active effects for links
 - [x] Implement responsive tablet view
-- [ ] Implement responsive mobile view
+- [x] Implement responsive mobile view
 
 ## Other:
 
