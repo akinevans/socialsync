@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .footer-outer-wrapper {
@@ -19,6 +20,26 @@
   justify-content: space-between;
   /* border: 2px solid blue; */
   border-bottom: 2px solid #e8e8e8;
+}
+
+.credit-wrapper {
+  position: absolute;
+  bottom: -5px;
+  height: 30px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+.credit-wrapper a {
+  font-family: var(--body-font);
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.credit-wrapper a:hover {
+  text-decoration: underline;
 }
 
 /** Tablet View */

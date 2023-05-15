@@ -31,6 +31,11 @@ export default function Footer() {
           link4='Careers'
         />
       </div>
+      <div className='credit-wrapper'>
+        <a href='https://dribbble.com/hasan_ui_design' target='_blank'>
+          UI Design by Hasan on Dribbble
+        </a>
+      </div>
     </div>
   );
 }
