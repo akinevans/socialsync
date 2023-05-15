@@ -1,9 +1,9 @@
 .pscard-wrapper {
   width: 260px;
   height: 260px;
+  padding: 20px 25px;
   border: 2px solid rgba(0, 0, 0, 0.075);
   border-radius: 15px;
-  padding: 20px 25px;
   background-color: var(--main-bg-color);
 }
 
@@ -33,9 +33,9 @@
 
 .pscard-wrapper a {
   margin: 30px 0 0 0;
-  color: var(--button-color);
   font-size: 14px;
   font-weight: 600;
+  color: var(--button-color);
 }
 
 .pscard-wrapper a:hover {

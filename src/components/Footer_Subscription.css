@@ -27,13 +27,13 @@
 }
 
 .footer-sub-outer-wrapper form {
-  border: 2px solid #e8e8e8;
-  border-radius: 5px;
-  padding: 2px 3px;
-  height: 40px;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  height: 40px;
+  padding: 2px 3px;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
   /* outline: none; */
 }
 
@@ -43,8 +43,8 @@
 } */
 
 .input-form {
-  border: none;
   height: 30px;
+  border: none;
 }
 
 .input-form:active {
@@ -55,13 +55,13 @@
 .input-btn {
   width: 100px;
   height: 35px;
-  background-color: var(--button-color);
-  color: var(--main-bg-color);
-  font-family: var(--body-font);
-  font-weight: 500;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: var(--body-font);
+  font-weight: 500;
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
   transition: background-color 0.4s ease-out;
 }
 
@@ -83,8 +83,8 @@
 
   .footer-sub-outer-wrapper form {
     width: 240px;
-    padding: 2px 3px;
     height: 40px;
+    padding: 2px 3px;
     /* outline: none; */
   }
 
@@ -107,31 +107,31 @@
   .footer-sub-outer-wrapper {
     width: 300px;
     height: 80%;
-    /* border: 2px solid black; */
+    margin-bottom: -15px;
     align-items: center;
     text-align: center;
-    margin-bottom: -15px;
+    /* border: 2px solid black; */
   }
 
   .footer-sub-outer-wrapper h3 {
-    font-size: 20px;
     margin-bottom: 15px;
+    font-size: 20px;
   }
 
   .footer-sub-outer-wrapper p {
-    font-size: 15px;
     width: 320px;
+    font-size: 15px;
   }
 
   .footer-sub-outer-wrapper form {
-    border: 2px solid #e8e8e8;
-    border-radius: 5px;
-    padding: 2px 3px;
-    height: 40px;
-    width: 290px;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    width: 290px;
+    height: 40px;
+    padding: 2px 3px;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
   }
 
   .input-form {

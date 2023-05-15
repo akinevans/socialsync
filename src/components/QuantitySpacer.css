@@ -8,8 +8,8 @@
 
 .quantity-spacer-outer-wrapper {
   width: var(--full-width);
-  background-color: var(--secondary-bg-color);
   height: 250px;
+  background-color: var(--secondary-bg-color);
 }
 
 .quantity-spacer-inner-wrapper {
@@ -24,8 +24,8 @@
 @media (max-width: 1000px) {
   .quantity-spacer-outer-wrapper {
     width: var(--full-width);
-    background-color: var(--secondary-bg-color);
     height: 200px;
+    background-color: var(--secondary-bg-color);
   }
 
   .quantity-spacer-inner-wrapper {

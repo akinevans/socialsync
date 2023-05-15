@@ -14,19 +14,19 @@
 .link,
 .signin,
 .get-started-btn {
-  color: var(--font-color);
   font-family: var(--body-font);
+  color: var(--font-color);
 }
 
 .nav-outer-wrapper {
+  position: fixed;
   width: var(--full-width);
   height: 50px;
   background-color: var(--secondary-bg-color);
-  /* border: 2px solid red; */
-  position: fixed;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 999;
   /* transition: all 0.2s ease; */
+  /* border: 2px solid red; */
 }
 
 .nav-inner-wrapper {
@@ -45,11 +45,11 @@
 }
 
 .link-wrapper {
-  /* border: 2px solid blue; */
-  width: 350px;
   display: flex;
   justify-content: space-between;
+  width: 350px;
   margin-right: 125px;
+  /* border: 2px solid blue; */
 }
 
 .link,
@@ -87,19 +87,19 @@
 }
 
 .nav-end-wrapper {
-  width: 220px;
-  margin-left: 100px;
-  margin-right: 75px;
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 220px;
+  margin-left: 100px;
+  margin-right: 75px;
   background-color: var(--secondary-bg-color);
+  /* border: 2px solid blue; */
 }
 
-/** Tablet View */
-/** Tablet View */
-/** Tablet View */
+/** Tablet View 1150*/
+/** Tablet View 1150*/
+/** Tablet View 1150*/
 
 @media (max-width: 1150px) {
   .nav-outer-wrapper {
@@ -115,19 +115,13 @@
   }
 
   .nav-outer-wrapper {
-    height: 250px;
-    /* border: 2px solid red; */
     position: relative;
+    height: 250px;
     box-shadow: none;
-    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
     z-index: 999;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
     /* transition: all 0.2s ease; */
-  }
-
-  .nav-inner-wrapper {
-    max-width: 950px;
-    height: 100%;
-    /* border: 2px solid blue; */
+    /* border: 2px solid red; */
   }
 
   .title-wrapper,
@@ -139,14 +133,14 @@
   }
 
   .title-wrapper h1 {
+    margin: 20px 0;
     font-size: 75px;
     font-weight: 800;
-    margin: 20px 0;
   }
 
   .link-wrapper {
-    width: 300px;
     justify-content: space-around;
+    width: 300px;
   }
 
   .link {

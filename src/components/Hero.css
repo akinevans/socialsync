@@ -15,9 +15,9 @@
 .hero-outer-wrapper {
   width: var(--full-width);
   height: 530px;
+  padding-top: 25px;
   background-color: var(--secondary-bg-color);
   /* border: 2px solid red; */
-  padding-top: 25px;
 }
 
 .hero-inner-wrapper {
@@ -29,24 +29,24 @@
 
 .hero-title,
 .hero-body-text {
+  text-align: center;
   font-family: var(--body-font);
   color: var(--font-color);
-  text-align: center;
 }
 
 .hero-title {
-  /* border: 2px solid black; */
   width: 900px;
+  /* border: 2px solid black; */
 }
 
 .hero-title h1 {
-  font-size: 55px;
   margin: 0;
+  font-size: 55px;
 }
 
 .hero-body-text {
-  margin-bottom: 25px;
   width: 460px;
+  margin-bottom: 25px;
 }
 
 .hero-body-text p {
@@ -59,18 +59,16 @@
   width: 350px;
   height: 50px;
   margin-bottom: 10px;
-
   /* border: 2px solid black; */
 }
 
 .hero-review-wrapper {
+  flex-direction: row;
   width: fit-content;
   height: 40px;
   margin-top: 15px;
-  flex-direction: row;
-  /* border: 2px solid black; */
   text-align: center;
-  /* font: var(--body-font); */
+  /* border: 2px solid black; */
 }
 
 .one-star {
@@ -79,9 +77,9 @@
 }
 
 .review-title {
+  padding-right: 10px;
   font-size: 16px;
   font-weight: 600;
-  padding-right: 10px;
 }
 
 .five-star {
@@ -90,9 +88,9 @@
 }
 
 .end-review {
-  color: rgba(0, 0, 0, 0.75);
-  font-size: 15px;
   padding-left: 10px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 /** Small Desktop 1150px View */
@@ -103,7 +101,6 @@
   .hero-outer-wrapper {
     height: 385px;
     padding-top: 15px;
-
     /* border: 2px solid red; */
   }
 
@@ -115,8 +112,8 @@
   }
 
   .hero-title h1 {
-    font-size: 45px;
     margin: 0;
+    font-size: 45px;
   }
 } /* End small desktop view 1150px*/
 
@@ -138,18 +135,18 @@
   }
 
   .hero-title {
-    /* border: 2px solid black; */
     width: 100%;
+    /* border: 2px solid black; */
   }
 
   .hero-title h1 {
-    font-size: 36px;
     margin: 0;
+    font-size: 36px;
   }
 
   .hero-body-text {
-    margin-bottom: 5px;
     width: 345px;
+    margin-bottom: 5px;
   }
 
   .hero-body-text p {
@@ -182,8 +179,8 @@
   }
 
   .end-review {
-    color: rgba(0, 0, 0, 0.75);
     font-size: 13px;
+    color: rgba(0, 0, 0, 0.75);
   }
 } /*End Tablet View*/
 
@@ -202,9 +199,9 @@
   }
 
   .review-title {
+    padding-right: 10px;
     font-size: 14px;
     font-weight: 600;
-    padding-right: 10px;
   }
 
   .five-star {
@@ -213,8 +210,8 @@
   }
 
   .end-review {
-    color: rgba(0, 0, 0, 0.75);
-    font-size: 14px;
     padding-left: 8px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
   }
 } /*End Mobile View*/

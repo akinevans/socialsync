@@ -8,16 +8,16 @@
 
 .hero-spacer-outer-wrapper {
   width: var(--full-width);
-  /* border: 2px solid red; */
   height: 215px;
   background-color: var(--main-bg-color);
+  /* border: 2px solid red; */
 }
 
 .hero-spacer-inner-wrapper {
-  justify-content: space-between;
+  justify-content: space-around;
   width: 1000px;
-  /* border: 2px solid blue; */
   margin: 50px auto 0 auto;
+  /* border: 2px solid blue; */
 }
 
 .hero-spacer-title-wrapper {
@@ -27,9 +27,9 @@
 
 .hero-spacer-title,
 .hero-spacer-text {
+  margin: 0;
   font-family: var(--body-font);
   color: var(--font-color);
-  margin: 0;
 }
 
 .hero-spacer-text-wrapper {
@@ -58,9 +58,9 @@
     justify-content: space-between;
     align-items: center;
     width: 500px;
-    /* border: 2px solid blue; */
     margin: 20px auto 0 auto;
     text-align: center;
+    /* border: 2px solid blue; */
   }
 
   .hero-spacer-title-wrapper {

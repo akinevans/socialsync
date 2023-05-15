@@ -16,7 +16,6 @@
 
 .demo-inner-wrapper {
   justify-content: center;
-
   width: var(--desktop-width);
   height: 100%;
 }
@@ -24,8 +23,8 @@
 .demo-img-wrapper,
 .demo-text-wrapper {
   width: 400px;
-  /* border: 2px solid blue; */
   padding: 0 20px;
+  /* border: 2px solid blue; */
 }
 
 .demo-img-wrapper {
@@ -40,13 +39,13 @@
 }
 
 .demo-img-inner-wrapper {
-  width: 340px;
+  position: relative;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 340px;
+  z-index: 1;
   background-color: var(--button-color);
   border-radius: 34px;
-  position: relative;
-  z-index: 1;
 }
 
 .meeting {
@@ -56,23 +55,25 @@
 }
 
 .play-btn {
-  background-color: var(--main-bg-color);
-  border-radius: 40px;
-  padding: 10px 10px 10px 15px;
-  width: 30px;
-  height: 30px;
   position: absolute;
   bottom: 150px;
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px 10px 15px;
+  cursor: pointer;
+  border-radius: 40px;
+  background-color: var(--main-bg-color);
 }
 
 .demo-btn {
   width: 150px;
   height: 40px;
-  background-color: var(--main-bg-color);
   border: none;
   border-radius: 5px;
   font-weight: 600;
   font-size: 12.5px;
+  cursor: pointer;
+  background-color: var(--main-bg-color);
   transition: background-color 0.2s ease;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
@@ -99,19 +100,19 @@
 }
 
 .demo-text-wrapper h1 {
-  font-size: 35px;
   margin: 0 0 40px 0;
+  font-size: 35px;
 }
 
 .demo-text-wrapper h4 {
-  font-size: 18px;
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 .demo-text-wrapper p {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 16px;
-  margin-top: 20px;
 }
 
 /** Tablet View 1075px */
@@ -191,11 +192,11 @@
   }
 
   .demo-text-wrapper p {
+    margin-top: 12px;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 12px;
   }
-} /* Tablet View 1075px*/
+} /* End Tablet View 1075px*/
 
 /** Tablet View 895px */
 /** Tablet View 895px */
@@ -210,8 +211,8 @@
   }
 
   .demo-text-wrapper h1 {
-    font-size: 28px;
     margin: 0 0 5px 0;
+    font-size: 28px;
   }
 } /*End Tablet 895px*/
 
@@ -234,9 +235,9 @@
   .demo-text-wrapper {
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
-    text-align: center;
-    width: fit-content;
     margin: 40px 0 5px 0;
+    width: fit-content;
+    text-align: center;
+    /* border: 2px solid red; */
   }
 } /*End Mobile 790px*/
