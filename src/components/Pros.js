@@ -1,13 +1,25 @@
-import React from "react";
+import { React, useRef } from "react";
 import group1 from "../images/group1.webp";
 import group2 from "../images/group2.webp";
 import "./Pros.css";
+import { motion, useInView } from "framer-motion";
 
 export default function Pros() {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
   return (
     <div className='pros-outer-wrapper'>
       <div className='pros-inner-wrapper'>
-        <div className='section-one-wrapper'>
+        <motion.div
+          ref={ref}
+          style={{
+            transform: isInView ? "none" : "translateX(-300px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+          className='section-one-wrapper'
+        >
           <div className='section-one-img-wrapper'>
             <img src={group1} alt='' />
           </div>
@@ -22,8 +34,15 @@ export default function Pros() {
               communicate personally at scale{" "}
             </p>
           </div>
-        </div>
-        <div className='section-two-wrapper'>
+        </motion.div>
+        <motion.div
+          style={{
+            transform: isInView ? "none" : "translateX(300px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
+          }}
+          className='section-two-wrapper'
+        >
           <div className='section-two-text-wrapper'>
             <h1>
               We help you to grow <br />
@@ -42,7 +61,7 @@ export default function Pros() {
           <div className='section-two-img-wrapper'>
             <img src={group2} alt='' />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
