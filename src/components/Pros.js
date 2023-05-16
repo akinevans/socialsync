@@ -2,7 +2,7 @@ import { React } from "react";
 import group1 from "../images/group1.webp";
 import group2 from "../images/group2.webp";
 import "./Pros.css";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Pros() {
   return (

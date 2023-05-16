@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 import React from "react";
+import { delay, motion } from "framer-motion";
 import "./Hero.css";
 import Button_Orange from "./Button_Orange";
 import Button_White from "./Button_White";
@@ -10,22 +11,46 @@ export default function Hero() {
   return (
     <div className='hero-outer-wrapper' id='hero_component'>
       <div className='hero-inner-wrapper'>
-        <div className='hero-title'>
+        <motion.div
+          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ y: 0, x: 0, opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 0.6 }}
+          className='hero-title'
+        >
           <h1>
             Customer messaging <br /> that fits your business
           </h1>
-        </div>
-        <div className='hero-body-text'>
+        </motion.div>
+        <motion.div
+          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ y: 0, x: 0, opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 0.6, delay: 0.1 }}
+          className='hero-body-text'
+        >
           <p>
             Transform the way you work with one place for everyone and
             everything you need to get stuff done.
           </p>
-        </div>
-        <div className='hero-button-wrapper'>
+        </motion.div>
+        <motion.div
+          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ y: 0, x: 0, opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 0.6, delay: 0.2 }}
+          className='hero-button-wrapper'
+        >
           <Button_Orange title='Start 14 Day Free Trial' />
           <Button_White title='Watch A Demo' />
-        </div>
-        <div className='hero-review-wrapper'>
+        </motion.div>
+        <motion.div
+          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ y: 0, x: 0, opacity: 1 }}
+          transition={{ ease: "easeOut", duration: 0.6, delay: 0.25 }}
+          className='hero-review-wrapper'
+        >
           <img src={one_star} alt='green star' className='one-star' />
           <p>
             <span className='review-title'>Trustpilot </span>
@@ -34,7 +59,7 @@ export default function Hero() {
 
             <span className='end-review'>4900+ 5 Stars</span>
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
