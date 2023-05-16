@@ -1,6 +1,8 @@
-<img src="./src/images/SocialSync.png" alt="Alt text" title="Optional title">
+# [Checkout the live demo here](https://akinevans.github.io/socialsync/) =)
 
 UI Design by [Hasan](https://dribbble.com/shots/21212229-Task-Management-Website-Design) on Dribbble.
+
+<img src="./src/images/SocialSync.png" alt="Alt text" title="Optional title">
 
 # TODO:
 
