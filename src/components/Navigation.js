@@ -27,7 +27,7 @@ export default function Navigation() {
             to='product_services'
             spy={true}
             smooth={true}
-            offset={-80}
+            offset={-55}
             duration={800}
             className='link'
           >
@@ -37,7 +37,7 @@ export default function Navigation() {
             to='demo'
             spy={true}
             smooth={true}
-            offset={-40}
+            offset={-350}
             duration={800}
             className='link'
           >

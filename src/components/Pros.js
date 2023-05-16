@@ -1,23 +1,17 @@
-import { React, useRef } from "react";
+import { React } from "react";
 import group1 from "../images/group1.webp";
 import group2 from "../images/group2.webp";
 import "./Pros.css";
-import { motion, useInView } from "framer-motion";
+import { delay, motion } from "framer-motion";
 
 export default function Pros() {
-  const ref = useRef(null);
-  const isInView = useInView(ref);
-
   return (
     <div className='pros-outer-wrapper'>
       <div className='pros-inner-wrapper'>
         <motion.div
-          ref={ref}
-          style={{
-            transform: isInView ? "none" : "translateX(-300px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-          }}
+          // initial={{ opacity: 0, y: 100 }}
+          // animate={{ y: 0, x: 0, opacity: 1 }}
+          // transition={{ ease: "easeOut", duration: 0.6 }}
           className='section-one-wrapper'
         >
           <div className='section-one-img-wrapper'>
@@ -36,11 +30,9 @@ export default function Pros() {
           </div>
         </motion.div>
         <motion.div
-          style={{
-            transform: isInView ? "none" : "translateX(300px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
-          }}
+          // initial={{ opacity: 0, y: 100 }}
+          // animate={{ y: 0, x: 0, opacity: 1 }}
+          // transition={{ ease: "easeOut", duration: 0.6 }}
           className='section-two-wrapper'
         >
           <div className='section-two-text-wrapper'>
