@@ -1,18 +1,19 @@
-import React from "react";
+import { React, useRef } from "react";
 import "./PS_Card.css";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 export default function PS_Card(props) {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
   return (
     <motion.div
-      // whileInView={{ opacity: 1 }}
-      initial={{ opacity: 0, y: 120 }}
-      animate={{ y: 0, x: 0, opacity: 1 }}
-      whileHover={{
-        scale: 1.1,
-        // transition: { duration: 0.2 },
-      }}
-      transition={{ ease: "easeOut", duration: 0.6 }}
+      ref={ref}
+      // style={{
+      //   transform: isInView ? "none" : "translateY(200px)",
+      //   opacity: isInView ? 1 : 0,
+      //   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
+      // }}
       className='pscard-wrapper'
     >
       <img src={props.img} alt='' />
