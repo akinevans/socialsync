@@ -18,9 +18,7 @@ export default function Hero() {
           transition={{ ease: "easeOut", duration: 0.6 }}
           className='hero-title'
         >
-          <h1>
-            Customer messaging <br /> that fits your business
-          </h1>
+          <h1>Customer messaging that fits your business</h1>
         </motion.div>
         <motion.div
           // whileInView={{ opacity: 1 }}

@@ -134,7 +134,7 @@
   }
 
   .demo-inner-wrapper {
-    width: 1000px;
+    width: 100%;
     height: 100%;
     /* border: 2px solid red; */
   }
@@ -207,6 +207,7 @@
   .demo-text-wrapper h4,
   .demo-text-wrapper p {
     width: 370px;
+    text-align: center;
     /* border: 2px solid red; */
   }
 
@@ -232,12 +233,26 @@
     /* border: 2px solid red; */
   }
 
+  .demo-img-wrapper,
+  .demo-text-wrapper {
+    padding: 0;
+    /* border: 2px solid blue; */
+  }
+
   .demo-text-wrapper {
     justify-content: center;
     align-items: center;
     margin: 40px 0 5px 0;
-    width: fit-content;
+    width: 80%;
     text-align: center;
+    height: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .demo-text-wrapper h1,
+  .demo-text-wrapper h4,
+  .demo-text-wrapper p {
+    width: 97%;
     /* border: 2px solid red; */
   }
 } /*End Mobile 790px*/

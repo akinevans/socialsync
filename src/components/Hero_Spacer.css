@@ -83,7 +83,15 @@
 /** Mobile View 475px; */
 
 @media (max-width: 475px) {
+  .hero-spacer-inner-wrapper {
+    width: 100%;
+  }
+
   .hero-spacer-title {
     font-size: 32px;
+  }
+
+  .hero-spacer-text-wrapper {
+    width: 90%;
   }
 } /*End Mobile View*/
