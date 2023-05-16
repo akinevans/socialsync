@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/socialsync/static/css/main.f5b1d726.css",
+    "main.js": "/socialsync/static/js/main.71f8111a.js",
+    "static/js/787.d46856fe.chunk.js": "/socialsync/static/js/787.d46856fe.chunk.js",
+    "static/media/meeting.jpg": "/socialsync/static/media/meeting.840799f56ef744b71a28.jpg",
+    "static/media/group2.webp": "/socialsync/static/media/group2.0eea212792acb456f5fa.webp",
+    "static/media/group1.webp": "/socialsync/static/media/group1.9addba72ce5d89185a87.webp",
+    "static/media/word-bubble.png": "/socialsync/static/media/word-bubble.398ccae74267aa945808.png",
+    "static/media/touch.svg": "/socialsync/static/media/touch.68a21b89735957f2ad7166c728b643d1.svg",
+    "static/media/conversation.svg": "/socialsync/static/media/conversation.1ed55f52d1889aba9133c7ff3e725676.svg",
+    "index.html": "/socialsync/index.html",
+    "static/media/five-star.svg": "/socialsync/static/media/five-star.4540daf969f9bbd8c0fea5ca98d16d32.svg",
+    "static/media/one_star.svg": "/socialsync/static/media/one_star.a47b2b108f6f860d906b7a80ef9b76ca.svg",
+    "main.f5b1d726.css.map": "/socialsync/static/css/main.f5b1d726.css.map",
+    "main.71f8111a.js.map": "/socialsync/static/js/main.71f8111a.js.map",
+    "787.d46856fe.chunk.js.map": "/socialsync/static/js/787.d46856fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5b1d726.css",
+    "static/js/main.71f8111a.js"
+  ]
+}
