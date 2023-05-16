@@ -5,9 +5,9 @@
 .nav-outer-wrapper,
 .nav-inner-wrapper {
   display: flex;
-  align-items: center;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .title-wrapper h1,
